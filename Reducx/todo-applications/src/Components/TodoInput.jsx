@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 
 const TodoInput = () => {
     const [text,setText]=useState()
-    const dispatch=useDispatch()
+    // const dispatch=useDispatch()
     const handleChange=(e)=>{
         let name=e.target.name
         let data={
